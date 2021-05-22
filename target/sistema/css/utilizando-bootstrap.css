@@ -1,0 +1,179 @@
+#cabecalho{
+    background-color: rgb(29, 25, 25);
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.links:active{
+    color: white;
+}
+
+.links:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#link1{
+    position: relative;
+    left: -130px;
+    top: 23px;
+}
+
+#link2{
+    position: relative;
+    left: -10px;
+    top: -1px;
+   
+}
+
+#link3{
+    position: relative;
+    left: 130px;
+    top: -25px;
+}
+
+#imagem{
+    width: 100%;
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#conteudo{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(245, 238, 238);
+    margin-top: -23px;
+}
+
+
+#cadastrar{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#lista{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(245, 238, 238);
+}
+
+#container3{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#container4{
+	padding-top: 20px;
+    padding-bottom: 30px;	
+}
+
+#container5{
+	padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.listas{
+    list-style: none;
+}
+
+.campos{
+    margin-bottom: 20px;
+}
+
+.form-row{
+    border: solid 2px green;
+}
+
+#btncadastro{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#obrigatorio{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#tabela{
+    position: relative;
+    width: 100%;
+}
+
+tr{
+    height: 35px;
+}
+
+.color-red{
+    background-color: red;
+    color: white;
+}
+
+.color-green{
+    background-color: green;
+    color: white;
+}
+
+footer{
+    background-color: rgb(64, 64, 134);
+    color: white;
+    height: 100px;
+    text-align: center;
+}
+
+#copy{
+    position: relative;
+    margin-top: 0px;
+    top: 43px;
+}
+
+
+
+@media (max-width: 560px) {
+    input{
+        width: 100px;
+    }
+}
+
+@media (max-width: 530px) {
+    .titulos{
+        font-size: small;
+    }
+}
+
+@media (max-width: 472px) {
+    input{
+        width: 80px;
+    }
+    .titulos{
+        font-size:xx-small
+    }
+}
+
+@media (max-width: 425px) {
+    input{
+        width: 60px;
+    }
+    .titulos{
+        font-size:xx-small
+    }
+}
+
